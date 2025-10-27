@@ -20,7 +20,7 @@ Project Setup
 git clone https://github.com/Dumebimoses/Test-Assessment.git
 cd test-assessment
 
-2. Configure Database
+### 2. Configure Database
 
 Create a PostgreSQL database named:
 
@@ -35,7 +35,7 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-3. Run the Application
+### 3. Run the Application
 mvn spring-boot:run
 
 
